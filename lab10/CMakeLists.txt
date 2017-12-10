@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.6.2)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_FLAGS "-g -Wall -std=c++11")
+project(lab10)
+set(SOURCE_FILES lab10.cpp)
+add_executable(lab10_main lab10_main.cpp)

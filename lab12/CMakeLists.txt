@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.6.2)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_FLAGS "-g -Wall -std=c++11")
+project(lab12)
+set(SOURCE_FILES lab12_main.cpp)
+add_executable(lab12_main lab12_main.cpp lab12_StudentManager.cpp lab12_StudentTable.cpp)
